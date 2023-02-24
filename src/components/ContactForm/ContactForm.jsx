@@ -11,7 +11,7 @@ const initialValues = {
 
 const schema = yup.object().shape({
   name: yup.string().required('Required!'),
-  number: yup.string().min(9).max(9).required('Required!'),
+  number: yup.string().min(7).max(7).required('Required!'),
 });
 
 export const ContactForm =({onSave})=> {
